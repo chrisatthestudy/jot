@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.0.2] - 2015-12-13
+- Added scripts to call jot.py
+
 ## [0.0.1] - 2015-12-10
 ### Added
 - Initial commit

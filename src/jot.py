@@ -4,7 +4,7 @@
 A command-line journal for simple daily records.
 
 Usage:
-    jot add [for] <date> "<entry>" 
+    jot add [for] <date> <entry>
     jot add <entry>
     jot [-x] list all
     jot [-x] list [for] <date>
@@ -311,7 +311,7 @@ class Jot():
                     print
 
 if (__name__ == "__main__"):
-    params = docopt(__doc__, version='jrnl, v0.0.0.1')
+    params = docopt(__doc__, version='jrnl, v0.0.0.2')
     # print params
 
     api = Jot()

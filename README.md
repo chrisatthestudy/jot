@@ -3,7 +3,7 @@ _Command-line Journal for simple daily records._
 
 Usage
 
-    jot add [for] <date> "<entry>" 
+    jot add [for] <date> <entry>
     jot add <entry>
     jot [-x] list all
     jot [-x] list [for] <date>
