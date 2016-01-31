@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.0.3] - 2016-01-31
+- Minor corrections to README and source comments
+
 ## [0.0.2] - 2015-12-13
 - Added scripts to call jot.py
 

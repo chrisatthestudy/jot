@@ -17,14 +17,14 @@ Options
     -h --help     Show this screen.
     --version     Show version.
   
-Note that <entry> must be enclosed in double-quotes. 
+Note that the entry must be enclosed in double-quotes. 
 
 If no date is specified, today is assumed.
 
 Multiple entries for the same day will be grouped together in order of
 entry.
 
-The <date> value can either be a date string in the format yyyy-mm-dd, or
+The date value can either be a date string in the format yyyy-mm-dd, or
 can be one of the following special values:
 
     - today       - Today's date
@@ -39,6 +39,9 @@ can be one of the following special values:
     - month-nn    - The first day of the specified month this year
     - year-nnnn   - The first day of the specified year
     - nn-days-ago - The specified number of days ago
+
+The entries are stored in a jot.txt file which will be created in the same location
+as the jot script (this allows the system to be used on a portable drive).
 
 ## Examples
 

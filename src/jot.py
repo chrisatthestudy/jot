@@ -39,7 +39,9 @@ can be one of the following special values:
     - month-nn    - The first day of the specified month this year
     - year-nnnn   - The first day of the specified year
     - nn-days-ago - The specified number of days ago
-    
+
+The entries are stored in a jot.txt file which will be created in the same location
+as the jot script (this allows the system to be used on a portable drive).
 """
 
 # Standard library imports
@@ -56,7 +58,7 @@ from docopt import docopt
 class Jot():
 
     """
-    Main processor class, with Processor.execute() as the entry-point.
+    Main processor class, with Jot.execute() as the entry-point.
     """
     def __init__(self):
         self.contents = []
@@ -311,7 +313,7 @@ class Jot():
                     print
 
 if (__name__ == "__main__"):
-    params = docopt(__doc__, version='jrnl, v0.0.0.2')
+    params = docopt(__doc__, version='jrnl, v0.0.0.3')
     # print params
 
     api = Jot()
